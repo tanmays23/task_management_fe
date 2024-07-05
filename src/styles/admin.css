@@ -1,0 +1,605 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Questrial';
+  }
+  
+
+  .nav-content {
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    width: 100vw;
+    height: 100vh;
+    align-items: flex-start;
+  }
+
+
+
+  .nav-bar {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    background-color: #7D40FF;
+    height: 96vh;
+    overflow: hidden;
+    text-decoration: none;
+    margin-left: 2%;
+    margin-top: 1%;
+    border-radius: 20px;
+  }
+
+  .list-container {
+    background-color: white;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+ 
+
+.menu {
+    margin-top: 20%;
+    font-size: 20px;
+    padding: 4%;
+    margin-left: -11%;
+    font-family: 'Questrial';
+    color: white;
+}
+.nav-items{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 35%;
+}
+.nav-bor{
+    border-radius: 15px;
+    background-color: #9E71FF;
+    height: 350px;
+    margin-top: -5%;
+    width: 120%;
+    margin-left: -37%;
+
+
+}
+
+.members{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Questrial';
+    width: 227px;
+    height: 30px;
+    margin-top: 15%;
+    background-color: transparent; 
+    margin-left: 0%;
+    color: rgb(8, 8, 8);
+
+}
+
+.members-img {
+    width: 30px;
+    height: 22px;
+    margin-top: -2%;
+    margin-left: 11%;
+
+}
+
+.member{
+    font-size: 14px;
+    margin-top: -15px;
+    padding: 10px;
+    color: white;
+
+}
+
+.tasks{
+    display: flex;
+    flex-direction: row;
+   font-family: 'Questrial';
+    width: 227px;
+    height: 30px;
+    margin-top: 5%;
+    background-color: transparent;
+    margin-left: 0%;
+    color: rgb(8, 8, 8);
+   
+
+}
+
+.audience-img {
+    width: 22px;
+    height: 22px;
+    margin-top: -2%;
+    margin-left: 11%;
+    
+}
+
+.task {
+    font-size: 14px;
+    margin-top: -20px;
+    padding: 19px;
+    color: white;
+}
+
+.insight{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Questrial';
+    background-color: transparent;
+    color: rgb(8, 8, 8);
+    box-sizing: 6px;
+    width: 227px;
+    height: 30px;
+    margin-top: 5%;
+    margin-left: 0%;
+}
+
+.insight-img{
+    width: 22px;
+    height: 22px;
+    margin-top: -2%;
+    margin-left: 11%;
+}
+.in{
+    
+    font-size: 13px;
+    margin-top: -20px;
+    padding: 19px;
+    color: white;
+}
+
+.reports{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Questrial';
+    background-color: transparent;
+    margin-left: 0%;
+    color: rgb(8, 8, 8);
+    box-sizing: 6px;
+    width: 227px;
+    height: 30px;
+    margin-top: 5%;
+}
+
+.reports-img{
+    width: 22px;
+    height: 22px;
+    margin-top: -2%;
+    margin-left: 11%;
+}
+.report{
+    font-size: 14px;
+    margin-top: -20px;
+    padding: 19px;
+    color: white;
+}
+
+.notification{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Questrial';
+    background-color: transparent;
+   margin-left:0%;
+    color: rgb(8, 8, 8);
+    box-sizing: 6px;
+    width: 227px;
+    height: 30px;
+    margin-top: 5%;
+}
+
+.notification-img{
+    width: 22px;
+    height: 22px;
+    margin-top: -2%;
+    margin-left: 11%;
+}
+
+.noti{
+    font-size: 14px;
+    margin-top: -20px;
+    padding: 19px;
+    color: white;
+}
+
+.settings{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Questrial';
+    background-color: transparent;
+  margin-left: 0%;
+    color: rgb(8, 8, 8);
+    box-sizing: 6px;
+    width: 227px;
+    height: 30px;
+    margin-top: 5%;
+}
+
+.settings-img{
+    width: 22px;
+    height: 22px; 
+    margin-top: -3%;
+    margin-left: 11%; 
+}
+.sett{
+    font-size: 14px;
+    margin-top: -20px;
+    padding: 19px;
+    color: white;
+}
+
+.help{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Questrial';
+    background-color:transparent;
+    margin-left: 0%;
+    color: rgb(8, 8, 8);
+    box-sizing: 6px;
+    width: 227px;
+    height: 30px;
+    margin-top: 5%;
+}
+
+.help-img{
+    width: 22px;
+    height: 22px;
+    margin-top: -2%;
+    margin-left: 11%;
+    
+}
+.hel{
+    font-size: 14px;
+    margin-top: -20px;
+    padding: 19px;
+    color: white;
+}
+
+.feedback{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Questrial';
+    background-color: transparent;
+    margin-left: 0%;
+    box-sizing: 6px;
+    width: 227px;
+    height: 30px;
+    margin-top: 5%;
+}
+.feedback-img{
+    width: 22px;
+    height: 22px;
+    margin-top: -2%;
+    margin-left: 11%;
+}
+.feed{
+    font-size: 14px;
+    margin-top: -20px;
+    padding: 19px;
+    color: white;
+}
+
+.sup{
+    margin-top: 10%;
+    font-size: 20px;
+    padding: 4%;
+    margin-left: -5%;
+    font-family: 'Questrial';
+    color: white; 
+}
+.nav-sup{
+    border-radius: 15px;
+    background-color: #9E71FF;
+    height: 120px;
+    margin-top: -4%;
+    width: 120%;
+    margin-left: -37%;
+
+}
+
+button:hover{
+    background-color: rgb(118, 4, 153);
+}
+
+.table-1{
+    width: 100%;
+    height: 89vh;
+    text-align: center;
+    border-spacing: 30px;
+}
+.tr-1{
+    color: white;
+}
+
+.mem{
+    font-size: 40px;
+    margin-left: 6%;
+}
+.empty{
+    background-color: transparent;
+    width: 0%;
+    
+}
+.th{
+    margin: 10px 15px;
+    
+}
+
+.table-name{
+    
+    background-color: gray;
+    border-radius: 15px;
+    width: 3%;
+    height: 15%;
+    font-size: 20px;
+   
+    
+}
+.table-email{
+    background-color: gray;
+    border-radius: 15px;
+    width: 3%;
+    height: 15%;
+    font-size: 20px;
+    
+}
+.table-contact{
+    background-color: gray;
+    border-radius: 15px;
+    width: 3%;
+    height: 15%;
+    font-size: 20px;
+}
+
+.table-add{
+    background-color: gray;
+    border-radius: 15px;
+    width: 3%;
+    height: 15%;
+    font-size: 20px;
+} */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Questrial', sans-serif;
+}
+
+.nav-content {
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    width: 100vw;
+    height: 100vh;
+    align-items: flex-start;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    background-color: #7D40FF;
+    height: auto;
+    padding: 1% 2%;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 96vh;
+    margin-top: 1%;
+    margin-left: 2%;
+}
+
+.list-container {
+    background-color: white;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 2%;
+}
+
+.menu {
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 4%;
+    color: white;
+    text-align: center;
+}
+
+.nav-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-bor {
+    border-radius: 15px;
+    background-color: #9E71FF;
+    padding: 10px;
+    width: 100%;
+    margin-left: -6%;
+}
+.nav-bro {
+    border-radius: 15px;
+    background-color: #9E71FF;
+    padding: 5px;
+    width: 200px;
+    margin-top: 60%;
+   
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: transparent;
+    color: white;
+    font-size: 14px;
+    border: none;
+    text-align: left;
+    
+}
+
+.nav-item img {
+    width: 22px;
+    height: 22px;
+    margin-right: 10px;
+}
+.logout-img{
+    width: 22px;
+    height: 22px;
+    margin-left: 10px;
+}
+
+.nav-item span {
+    flex-grow: 1;
+}
+
+.sup {
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+} 
+
+
+
+.table-1 {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    border-spacing: 10px;
+}
+
+.tr-1 {
+    color: white;
+}
+
+.mem {
+    font-size: 40px;
+    margin: 20px 0;
+}
+
+.th {
+    margin: 10px 15px;
+}
+
+.table-header {
+    background-color: gray;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 20px;
+}
+.logout{
+    font-size: 14px;
+}
+
+
+@media (min-width: 768px) {
+    .nav-content {
+        flex-direction: row;
+    }
+
+    .nav-bar {
+        width: 20%;
+        height: 96vh;
+        padding: 0;
+        flex-direction: column;
+    }
+
+    .list-container {
+        width: 80%;
+        height: 100vh;
+        padding: 2%;
+    }
+    
+    .nav-item {
+        flex-direction: row;
+        padding: 10px 20px;
+        text-align: left;
+    }
+
+    .nav-item img {
+        width: 22px;
+        height: 22px;
+    }
+
+    .nav-sup {
+        padding: 20px;
+    }
+}
+.table-1{
+    width: 100%;
+    height: 89vh;
+    text-align: center;
+    border-spacing: 30px;
+}
+.tr-1{
+    color: white;
+}
+
+.mem{
+    font-size: 40px;
+    margin-left: 6%;
+}
+.empty{
+    background-color: transparent;
+    width: 0%;
+    
+}
+.th{
+    margin: 10px 15px;
+    
+}
+
+.table-name{
+    
+    background-color: gray;
+    border-radius: 15px;
+    width: 3%;
+    height: 15%;
+    font-size: 20px;
+   
+    
+}
+.table-email{
+    background-color: gray;
+    border-radius: 15px;
+    width: 3%;
+    height: 15%;
+    font-size: 20px;
+    
+}
+.table-contact{
+    background-color: gray;
+    border-radius: 15px;
+    width: 3%;
+    height: 15%;
+    font-size: 20px;
+}
+
+.table-add{
+    background-color: gray;
+    border-radius: 15px;
+    width: 3%;
+    height: 15%;
+    font-size: 20px;
+}  */
+
+ /* .nav-sup {
+    border-radius: 15px;
+    background-color: #b0d810;
+    padding: 10px;
+    width: 100%;
+    margin-top: 10px;
+}  */
+
+/* button:hover {
+    background-color: rgb(118, 4, 153);
+   
+} */

@@ -1,0 +1,179 @@
+/* .container-7{
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    width: 100vw;
+    height: 100vh;
+    align-items: flex-start;
+    
+    
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Questrial';
+  }
+.navb-ar {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    background-color: #7D40FF;
+    height: 96vh;
+    overflow: hidden;
+    text-decoration: none;
+    margin-left: 14px;
+    margin-top: 1%;
+    border-radius: 20px;
+
+  }
+
+.details{
+    background-color: white;
+    width: 80%;
+    display: flex;
+    font-family: 'Questrial';
+    height: 100vh;
+}
+.container-form{
+    background-color: #9E71FF;
+    padding: 110px 120px;
+    border-radius: 2%;
+    margin-top: 5%;
+    box-shadow: 0 3px 7px #0b0b0b;
+    height: 400px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    margin-left: 30%;
+}
+
+ .tas{
+    margin-top: -30%;
+    margin-left: 15%;
+    font-size: 40px;
+    font-family: 'Questrial';
+    color: white;
+ }
+ .input-name{
+    margin-left: -20px;
+    display: flex;
+    font-size: 14px;
+    padding: 12px;
+    font-family: "Poppins";
+ }
+ .select-priority{
+    margin-left: -20px;
+    display: flex;
+    font-size: 14px;
+    padding: 10px;
+    font-family: "Poppins";
+  
+ }
+ .dropdown-head{
+    padding: 8px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 20px;
+    margin-left: -8%;
+    width: 294px;
+ }
+ .dropdown-li {
+  position: absolute;
+  width: 20%;
+  border: 1px solid #ccc;
+  border-top: none;
+  background-color: #fff;
+  max-height: 200px;
+  overflow-y: auto;
+  z-index: 1000;
+  border-radius: 20px;
+  margin-left: -1%;
+}
+.due-date{
+    margin-left: -20px;
+    display: flex;
+    font-size: 14px;
+    padding: 12px;
+    font-family: "Poppins";
+}
+.dropdown-lis{
+  position: absolute;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-top: none;
+  background-color: #fff;
+  max-height: 200px;
+  overflow-y: auto;
+  z-index: 1000;
+  border-radius: 20px;
+  margin-left: -6%;
+}
+.dropdown-it{
+  padding: 10px;
+  cursor: pointer;
+}
+input[type="date"] {
+    padding: 5px;
+    margin: 20px 0;
+    font-size: 10px;
+    margin-left: -2%;
+  }
+  .select{
+    margin-left: -13px;
+    display: flex;
+    font-size: 11px;
+    padding: 12px;
+    font-family: "Poppins";
+    width: 30%;
+    height: 40px;
+    margin-top: -2%;
+  }
+  .selected{
+    font-size: 10px;
+    margin-left: -7px;
+  }
+  .input-assign{
+    margin-left: -28px;
+    display: flex;
+    font-size: 14px;
+    padding: 12px;
+    font-family: "Poppins";
+    width: 290px;
+    padding: 12px;
+  }
+  .date{
+    margin-left: -30px;
+    display: flex;
+    font-size: 8px;
+    padding: 12px;
+    font-family: "Poppins";
+  }
+  .date-picker{
+    font-size: 3px;
+  }
+  .input-fields{
+    padding: 8px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 20px;
+    margin-left: -5%;
+    width: 300px;
+  }
+  .dropd{
+    width: 290px;
+   
+    margin-left: 3%;
+  }
+  .assign{
+    width: px;
+    margin-left: 3%;
+  } */

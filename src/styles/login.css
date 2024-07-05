@@ -1,0 +1,142 @@
+
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body {
+    background-color: hwb(192 91% 2%);
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+    height: 100vh;
+    margin: 1%;
+    display: flex;
+    font-family: 'Poppins' sans-serif;
+ }
+  .main-container{
+   display: flex;
+   flex-direction: row;
+  }
+
+.manage{
+   color: #727171;
+   margin-left:100px;
+   font-size: 20px;
+   padding-right: 100px;
+   display: inline-block;
+   box-sizing:content-box; 
+   border-radius: 15px; 
+   padding: 5px; 
+   border: 1px solid #ccc;
+   margin-bottom: -5%;
+   font-family: "Poppins";
+}
+
+.container-1 {
+   color: #4d05d3;
+   padding: 130px;
+   border-radius: 8px;
+   margin-right: 0;
+   font-size: 42px;
+   padding-right: 100px;
+   font-family: 'Poppins'  ;
+}
+.container-2 {
+    background-color: rgb(255, 255, 255);
+    padding: 110px 80px;
+    border-radius: 2%;
+    margin-top: 90px;
+    box-shadow: 0 1px 3px #0b0b0b;
+    height: 330px;
+    width: 500px;
+    margin-right: 3%;
+ }
+
+.main-wel{
+   padding-left: 23px;
+margin-bottom: 14%;
+}
+
+.main-wel h1{
+   margin-top: -25%;
+   color: #0056b3;
+   font-size: 30px;
+   text-align: center;
+   padding: 31px;
+}
+.main-keep{
+   color: hsl(0, 24%, 27%);
+   padding-left: 20px;
+   font-size: 13px;
+   text-align: center;
+   padding-bottom: 10px;
+}
+ .main-keep p{
+   margin-top: -22%;
+   font-family: "Poppins";
+
+ }
+  
+ .form {
+   align-items: flex-start;
+   max-height: 1100px;
+   max-width: 1500px;
+   width: 300px;
+  
+ }
+
+ .input-label {
+   margin-left: -20px;
+   display: flex;
+   font-size: 17px;
+   padding: 12px;
+   font-family: "Poppins";
+ }
+ 
+ .input-field {
+   margin-left: -15px;
+   width: 300px;
+   height: 20px;
+   box-sizing:300px; 
+   border-radius: 20px; 
+   padding: 8px; 
+   border: 1px solid #ccc;
+ }
+ 
+  
+.container-group {
+   padding-left: 9px;
+   font-size: 12px;
+   color: #414040;
+   font-family: 'Poppins';
+   margin-left: -20px;
+  }
+ .error-message {
+   
+   color: rgb(251, 3, 3);
+   box-sizing: 20px;
+   display: inline-block;
+   border: none;
+   font-size: 12px;
+   margin-left: 13%;
+   margin-top: -2%;
+ }
+
+ button {
+    width: 300px;
+    padding: 10px;
+    background-color: #0626c3;
+    color: white;
+    box-sizing: 20px;
+    border: none;
+    border-radius: 20px; 
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 30px;
+    margin-left: -10px;
+    text-decoration:solid;
+  }
+  
+ .btn-1:hover {
+    background-color: #3146ff;
+  }
+ */

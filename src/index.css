@@ -1,0 +1,360 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+
+/* login css */
+
+body {
+  @apply bg-[hwb(192_91%_2%)] flex justify-end h-screen flex ml-auto m-[1%];
+  font-family: "Poppins" sans-serif;
+}
+.main-container {
+  @apply flex flex-row;
+}
+.manage {
+  @apply text-[#727171] text-xl inline-block box-content border mb-[-5%] ml-[140px] pr-[10px] p-[5px] rounded-[15px] border-solid border-[#ccc];
+  font-family: "Poppins";
+}
+.container-1 {
+  @apply text-[#4d05d3] text-[70px] mr-0 pr-[100px] p-[130px] rounded-lg;
+  font-family: "Poppins";
+}
+.cloud{
+  @apply font-[bold];
+}
+.container-2 {
+  @apply bg-white shadow-[0_1px_3px_#0b0b0b] h-[500px] w-[500px] mr-[3%] mt-[90px] px-20 py-[110px] rounded-[2%];
+}
+.main-wel {
+  @apply mb-[14%] pl-[23px];
+}
+.main-wel h1 {
+  @apply mt-[-25%] text-[#0056b3] text-3xl text-center p-[31px];
+}
+.main-keep {
+  @apply text-[hsl(0,24%,27%)] text-[13px] text-center pl-5 pb-2.5;
+}
+.main-keep p {
+  @apply mt-[-22%];
+  font-family: "Poppins";
+}
+.form {
+  @apply items-start max-h-[1100px] max-w-[1500px] w-[300px];
+}
+.input-label {
+  @apply flex text-[17px] -ml-0 p-3;
+  font-family: "Poppins";
+}
+.input-field {
+  @apply ml-[-1px] w-[300px] h-10 border p-2 rounded-[20px] border-solid border-[#ccc];
+  box-sizing: 300px;
+}
+.container-group {
+  @apply text-xs text-[#414040] -ml-0 pl-[10px] mt-5;
+  font-family: "Poppins";
+}
+.error-message {
+  @apply text-[rgb(251,3,3)] inline-block text-xs mt-[-2%] ml-[13%] border-[none];
+  box-sizing: 20px;
+}
+button {
+  @apply w-[300px] bg-[#0626c3] text-[white] cursor-pointer text-base -ml-0 mt-[30px] p-2.5 rounded-[20px] border-[none];
+  box-sizing: 20px;
+  text-decoration: solid;
+}
+.btn-1:hover {
+  @apply bg-[#3146ff];
+}
+
+/* admin css */
+
+html {
+  @apply h-full m-0 p-0;
+  font-family: "Questrial", sans-serif;
+}
+.nav-content {
+  @apply flex flex-row bg-transparent w-screen h-screen items-start md:flex-row mt-2 ml-[1%];
+}
+.nav-bar {
+  @apply flex flex-col w-1/5 bg-[#7D40FF]  h-[96vh] overflow-hidden  ml-[2%] mt-[0%] px-[2%] py-[1%] rounded-[20px] md:w-1/5 md:h-[96vh] md:flex-col md:p-0;
+}
+.list-container {
+  @apply bg-[white] w-4/5 flex flex-col h-screen p-[2%] md:w-4/5 md:h-screen md:p-[2%];
+}
+.menu {
+  @apply text-xl text-[white] text-center mt-5 p-[4%];
+}
+.nav-items {
+  @apply flex flex-col items-center;
+}
+.nav-bor {
+  @apply bg-[#9E71FF] w-full ml-[-1%] p-2.5 rounded-[15px];
+}
+.nav-bro {
+  @apply bg-[#9E71FF] w-[200px] mt-[60%] p-[5px] rounded-[15px];
+}
+.nav-item {
+  @apply flex items-center w-full bg-transparent text-[white] text-sm text-left mt-2.5 p-2.5 border-[none] md:flex-row md:text-left md:px-5 md:py-2.5;
+}
+.nav-item img {
+  @apply w-[22px] h-[22px] mr-2.5 md:w-[22px] md:h-[22px];
+}
+.logout-img {
+  @apply w-[22px] h-[22px] ml-2.5;
+}
+.nav-item span {
+  @apply grow;
+}
+.sup {
+  @apply text-xl text-[white] text-center mt-5;
+}
+.table-1 {
+  @apply w-full h-auto text-center border-spacing-2.5 w-full h-[82vh] text-center border-spacing-[30px];
+}
+.tr-1 {
+  @apply text-[white] text-[white];
+}
+.mem {
+  @apply text-[40px] mx-0 my-5 text-[40px] ml-[6%];
+}
+.th {
+  @apply mx-[15px] my-2.5 mx-[15px] my-2.5;
+}
+.table-header {
+  @apply bg-[gray] text-xl p-3 rounded-[15px] p-[20px];
+}
+.logout {
+  @apply text-sm;
+}
+@media (min-width: 768px) {
+  .nav-sup {
+    @apply p-5;
+  }
+}
+.empty {
+  @apply bg-transparent w-[0%];
+}
+.table-name {
+  @apply bg-[gray] w-[3%] h-[15%] text-xl rounded-[15px];
+}
+.table-email {
+  @apply bg-[gray] w-[3%] h-[15%] text-xl rounded-[15px];
+}
+.table-contact {
+  @apply bg-[gray] w-[3%] h-[15%] text-xl rounded-[15px];
+}
+.table-add {
+  @apply bg-[gray] w-[2%] h-[15%] text-xl rounded-[15px];
+}
+
+/* create task */
+.container-7 {
+  @apply flex flex-row bg-transparent w-screen h-screen items-start ml-[1%];
+}
+body,
+html {
+  @apply h-full m-0 p-0;
+  font-family: "Questrial";
+}
+
+.details {
+  @apply bg-[white] w-4/5 flex h-screen ;
+  font-family: "Questrial";
+}
+.container-form {
+  @apply bg-[#9E71FF] shadow-[0_3px_7px_#0b0b0b] h-[600px] w-[400px] flex justify-center ml-[30%] mt-[5%] px-[120px] py-[110px] rounded-[2%];
+}
+.tas {
+  @apply mt-[-30%] text-[40px] text-[white] ml-[15%];
+  font-family: "Questrial";
+}
+.input-name {
+  @apply flex text-sm -ml-2 p-3;
+  font-family: "Poppins";
+}
+.select-priority {
+  @apply flex text-sm -ml-2 p-2.5;
+  font-family: "Poppins";
+}
+.dropdown-head {
+  @apply border cursor-pointer flex justify-between items-center bg-white ml-[-5%] w-[294px] p-2 rounded-[20px] border-solid border-[#ccc];
+}
+.dropdown-li {
+  @apply absolute w-1/5 border bg-white max-h-[200px] overflow-y-auto z-[1000]  rounded-[20px] border-t-[none] border-solid border-[#ccc] -ml-3;
+}
+.due-date {
+  @apply flex text-sm -ml-2 p-3;
+  font-family: "Poppins";
+}
+.dropdown-lis {
+  @apply absolute w-1/5 border bg-white max-h-[200px] overflow-y-auto z-[1000]  rounded-[20px] border-t-[none] border-solid border-[#ccc] -ml-3;
+}
+.dropdown-it {
+  @apply cursor-pointer p-2.5;
+}
+input[type="date"] {
+  @apply text-[8px] ml-[6%] mx-0 my-5 p-[5px] mt-[4%];
+}
+.select {
+  @apply  flex text-[11px] w-[30%] h-10 mt-[0%] p-3;
+  font-family: "Poppins";
+}
+.selected {
+  @apply text-[13px] ml-[7px] mt-[8%];
+}
+.input-assign {
+  @apply flex text-sm w-[290px] -ml-4 p-3;
+  font-family: "Poppins";
+}
+.date {
+  @apply ml-[-2px] flex text-[8px] p-3;
+  font-family: "Poppins";
+}
+.date-picker {
+  @apply text-[3px] flex ;
+}
+.input-fields {
+  @apply border cursor-pointer flex justify-between items-center bg-white ml-[-3%] w-[300px] p-2 rounded-[20px] border-solid border-[#ccc];
+}
+.dropd {
+  @apply w-[290px] ml-[3%];
+}
+.assign {
+  @apply w-[20px] ml-[3%];
+}
+.date-in{
+  @apply flex p-20;
+}
+
+/* create creentials */
+.dropdown {
+  @apply relative inline-block w-[300px] ml-[20%] p-5;
+}
+.dropdown-header {
+  @apply border cursor-pointer flex justify-between items-center bg-white p-2.5 rounded-[20px] border-solid border-[#ccc];
+}
+.dropdown-arrow {
+  @apply ml-2.5;
+}
+.dropdown-list {
+  @apply absolute w-full border bg-white max-h-[200px] overflow-y-auto z-[1000] rounded-[20px] border-t-[none] border-solid border-[#ccc];
+}
+.dropdown-item {
+  @apply cursor-pointer p-2.5 hover:bg-[#f1f1f1];
+}
+.create {
+  @apply bg-[white] w-4/5 flex h-screen flex-col mt-[2%];
+  font-family: "Questrial";
+}
+.create-1 {
+  @apply justify-center h-[400px] w-[500px] ml-[-200%] mt-[-200%];
+}
+.credentials {
+  @apply text-[40px] ml-[2.5%];
+  font-family: "Questrial";
+}
+.creden {
+  @apply bg-[#9E71FF] shadow-[0_3px_7px_#0b0b0b] h-[200px] w-[500px] ml-[10%] mt-[5%] px-[200px] py-[200px] rounded-[2%] justify-center;
+}
+
+.setup {
+  @apply mt-[5%] ml-[20%] text-4xl text-[white] flex ;
+  font-family: "Questrial";
+}
+.create-please {
+  @apply mt-[0%] text-[20px] ml-[31%] flex;
+  font-family: "Questrial";
+}
+.generate {
+  @apply w-[200px] text-[white] cursor-pointer text-base ml-[30%] mt-[0%] rounded-[20px] border-[none];
+}
+.dropdown-search {
+  @apply w-[280px] ml-[4%] rounded-[20px] border-0;
+}
+
+/* tasks */
+.nav-table {
+  @apply flex flex-row w-[90%] bg-[#cfbff8] h-[80vh] overflow-hidden no-underline ml-[70px] mt-[1%] rounded-[20px];
+}
+.table-4 {
+  @apply w-full mx-0 my-5 border-collapse;
+}
+.table-task,
+.table-priority,
+.table-assets,
+.table-team {
+  @apply text-xl flex-row text-black w-full;
+}
+.tab-high {
+  @apply flex flex-row text-xl w-full h-auto;
+}
+.tr-7 {
+  @apply flex flex-row text-xl w-full;
+}
+.tk {
+  @apply text-[40px] ml-[2.5%];
+  font-family: "Questrial";
+}
+.check {
+  @apply flex flex-row w-full ml-[10%];
+}
+.highs {
+  @apply w-[15px] h-[15px] self-center;
+}
+.hig,
+.hig-1
+ {
+  @apply text-xl block flex-col text-black justify-center w-[10%] ml-[-2%];
+}
+
+.log-1 {
+  @apply flex ml-[0%];
+}
+
+.may {
+  @apply text-[10px] mt-[0%] ml-[10%];
+}
+
+.edit {
+  @apply w-[100px] h-5 text-[10px] flex-col ml-[0%] mt-[0%];
+}
+.ed {
+  @apply mt-[-13%];
+}
+.tab {
+  @apply w-[30px] h-[30px]   p-[5px] ;
+}
+.tab-1 {
+  @apply text-[15px];
+}
+.delete {
+  @apply w-[100px] h-5 text-[10px] flex-col mt-[2%] ml-[-20%];
+}
+.de {
+  @apply text-[10px] mt-[-13%];
+}
+.task-team{
+  @apply flex
+}
+.team-member-container {
+    @apply relative flex-col mr-[5px];
+}
+.team-btn {
+    @apply flex w-[30px] h-[30px] bg-[#0626c3] text-center leading-[30px] text-base cursor-pointer overflow-hidden rounded-[50%];
+}
+.team-label {
+    @apply flex mt-[-80%];
+}
+.team-name {
+    @apply hidden absolute -translate-x-2/4 bg-[#333] text-white text-xs whitespace-nowrap p-[5px] rounded-[3px] left-2/4 bottom-[35px];
+}
+.team-btn:hover .team-name {
+    @apply block bg-[white] text-[black];
+}
+.line-1 {
+  @apply w-[90%] mx-[30px] my-5 border-t-2 border-t-black border-[none] border-solid;
+}
+.line {
+  @apply w-4/5 ml-[8%] mx-[60px] my-5 border-t-black border-[none] border-t border-solid;
+}
